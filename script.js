@@ -13,7 +13,7 @@ class Person {
 		this._age = age
 	}
 
-	get age(age) {
+	get age() {
 		return this._age
 	}
 }
