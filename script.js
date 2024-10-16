@@ -12,6 +12,10 @@ class Person {
 	set age(age) {
 		this._age = age
 	}
+
+	get age(age) {
+		return this._age
+	}
 }
 
 class Student extends Person {
